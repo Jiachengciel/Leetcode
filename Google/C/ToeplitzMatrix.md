@@ -29,23 +29,23 @@ matrix[i][j] 的整数取值范围为[0, 99].
 
 **代码：**
 ===
-class Solution {
-public:
+    class Solution {
+    public:
     /*
      * @param matrix: the given matrix
      * @return: True if and only if the matrix is Toeplitz
      */
-    bool isToeplitzMatrix(vector<vector<int>> &matrix) {
-        if (matrix.empty())
-            return false;
-        for(int i=1; i<matrix.size(); i++)           //行数//将每行数组作为一个元素看待，取数组个数
-        {
-            for(int j=1; j<matrix[0].size(); j++)    //列数// 取第一行元素个数
+        bool isToeplitzMatrix(vector<vector<int>> &matrix) {
+            if (matrix.empty())
+                return false;
+            for(int i=1; i<matrix.size(); i++)           //行数//将每行数组作为一个元素看待，取数组个数
             {
-                if(matrix[i][j] != matrix[i-1][j-1])
-                    return false;
+                for(int j=1; j<matrix[0].size(); j++)    //列数// 取第一行元素个数
+                {
+                    if(matrix[i][j] != matrix[i-1][j-1])
+                        return false;
+                 }
             }
+            return true;
         }
-        return true;
-    }
-};
+    };
