@@ -31,7 +31,7 @@ matrix[i][j] 的整数取值范围为[0, 99].
 ===
 class Solution {
 public:
-    /**
+    /*
      * @param matrix: the given matrix
      * @return: True if and only if the matrix is Toeplitz
      */
