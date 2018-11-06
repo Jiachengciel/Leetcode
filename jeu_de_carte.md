@@ -1,6 +1,7 @@
  代码：
- ==
+ ===
  **carte.h**
+ ===
     #pragma once
     #include <iostream>
 
@@ -23,6 +24,7 @@
     bool carteEstPoint100(Carte* carte);
     bool carteEstPoint50(Carte* carte);
 **carte.cpp**
+===
     #include "Carte.h"
     #include <iostream>
     #include "EstPoint.h"
