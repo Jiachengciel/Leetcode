@@ -1,21 +1,21 @@
-        #pragma once
-        #include <iostream>
+                #pragma once
+                #include <iostream>
 
-        using namespace std;
+                using namespace std;
 
-        class Carte{
+                class Carte{
 
-        private:
-            int numero;
+                private:
+                    int numero;
 
-        public:
-            static int nbreDeCartes;
-            Carte();
-            int getNumero() const;
-            virtual void affiche(ostream& s) const=0;
-        };
+                public:
+                    static int nbreDeCartes;
+                    Carte();
+                    int getNumero() const;
+                    virtual void affiche(ostream& s) const=0;
+                };
 
-        ostream & operator<<( ostream &s , Carte const & _carte);
+                ostream & operator<<( ostream &s , Carte const & _carte);
 
-        bool carteEstPoint100(Carte* carte);
-        bool carteEstPoint50(Carte* carte);
+                bool carteEstPoint100(Carte* carte);
+                bool carteEstPoint50(Carte* carte);
