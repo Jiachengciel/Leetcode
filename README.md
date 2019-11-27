@@ -2,8 +2,8 @@
 
 [![Travis](https://img.shields.io/badge/language-Python-red.svg)]()
 [![Travis](https://img.shields.io/badge/language-C++-green.svg)]()
-![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.leetcode)
-![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=azl397985856.leetcode)
+![历史共访问次数](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=Jiachengciel/Leetcode)
+![今天被访问次数](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=Jiachengciel/Leetcode)
 
 ## 介绍
 
